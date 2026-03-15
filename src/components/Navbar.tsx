@@ -6,9 +6,18 @@ export default function Navbar() {
           BIOPLASTIC<span className="text-[#ec4899]">_AI</span>
         </a>
         <div className="hidden md:flex items-center gap-12 text-sm font-bold uppercase tracking-widest">
-          <a href="#crisis" className="hover:text-[#ec4899] transition-colors">The Crisis</a>
-          <a href="#engine" className="hover:text-[#ec4899] transition-colors">The Engine</a>
-          <a href="#transformation" className="hover:text-[#ec4899] transition-colors">Loop</a>
+          <a href="#crisis" className="hover:text-[#ec4899] transition-colors">
+            The Crisis
+          </a>
+          <a
+            href="#transformation"
+            className="hover:text-[#ec4899] transition-colors"
+          >
+            The Loop
+          </a>
+          <a href="#engine" className="hover:text-[#ec4899] transition-colors">
+            The Engine
+          </a>
         </div>
         <a
           href="#join"
