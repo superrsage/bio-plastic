@@ -6,12 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        forest: '#1B4332',
-        earth: '#8B6914',
-        cream: '#F5F1EB',
+        charcoal: '#1f2937',
+        pink: '#ec4899',
+        coral: '#ef4444',
+        cream: '#fef9f3',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
+        mono: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
       },
     },
   },

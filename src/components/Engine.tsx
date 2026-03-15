@@ -52,10 +52,10 @@ export default function Engine() {
     <section id="engine" className="py-32 bg-white">
       <div className="px-6 md:px-12">
         <div className="flex flex-col lg:flex-row justify-between items-start mb-24">
-          <h2 className="text-5xl md:text-7xl font-black kerning-tight max-w-2xl">
+          <h2 className="text-5xl md:text-7xl font-bold kerning-tight max-w-2xl">
             BIOSYNTHESIZE™{' '}
             <br />
-            <span className="text-earth">THE ENGINE.</span>
+            <span className="text-[#ec4899]">THE ENGINE.</span>
           </h2>
           <div className="mt-8 lg:mt-0 lg:max-w-md">
             <p className="text-lg font-medium opacity-70">
@@ -70,14 +70,14 @@ export default function Engine() {
           {steps.map((step) => (
             <div
               key={step.num}
-              className="border-4 border-forest p-8 hover:bg-forest hover:text-white transition-all group relative overflow-hidden"
+              className="border-4 border-gray-100 p-8 hover:border-[#ec4899] hover:bg-[#ec4899] hover:text-white transition-all group relative overflow-hidden"
             >
-              <div className="absolute -right-4 -top-4 opacity-10 group-hover:opacity-30 transition-opacity">
+              <div className="absolute -right-4 -top-4 opacity-5 group-hover:opacity-20 transition-opacity">
                 {step.icon}
               </div>
-              <div className="text-4xl font-black mb-12">{step.num}</div>
+              <div className="text-4xl font-bold mb-12 opacity-30 group-hover:opacity-100">{step.num}</div>
               <h4 className="text-xl font-bold uppercase mb-4">{step.title}</h4>
-              <p className="text-sm opacity-70">{step.desc}</p>
+              <p className="text-sm opacity-60 group-hover:opacity-90">{step.desc}</p>
             </div>
           ))}
         </div>
