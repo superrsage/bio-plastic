@@ -53,7 +53,7 @@ export default function Engine() {
       <div className="px-6 md:px-12">
         <div className="flex flex-col lg:flex-row justify-between items-start mb-24">
           <h2 className="text-5xl md:text-7xl font-bold kerning-tight max-w-2xl">
-            BIOSYNTHESIZE™{' '}
+            BIOSYNTHESIZE{' '}
             <br />
             <span className="text-[#ec4899]">THE ENGINE.</span>
           </h2>

@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-PROJECT_ID="bio-plastic-490317"
+PROJECT_ID="monomer"
 REGION="us-east1"
-SERVICE_NAME="bio-plastic"
+SERVICE_NAME="monomer-website"
 IMAGE="gcr.io/${PROJECT_ID}/${SERVICE_NAME}"
 
 echo "==> Configuring Docker for GCR..."
